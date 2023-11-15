@@ -43,6 +43,18 @@ function Login() {
         <button onClick={() => initiateOAuth('Facebook')}>Log in with Facebook</button>
         <button onClick={() => initiateOAuth('Instagram')}>Log in with Instagram</button>
       </div>
+      <div>
+        {/* Links to Facebook's privacy policy, data deletion, and terms of service */}
+        <a href="https://www.facebook.com/policy.php" target="_blank" rel="noopener noreferrer">
+          Facebook Privacy Policy
+        </a>
+        <a href="https://www.facebook.com/help/186570224871049" target="_blank" rel="noopener noreferrer">
+          Data Deletion on Facebook
+        </a>
+        <a href="https://www.facebook.com/terms.php" target="_blank" rel="noopener noreferrer">
+          Facebook Terms of Service
+        </a>
+      </div>
     </div>
   );
 }
