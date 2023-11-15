@@ -1,0 +1,16 @@
+/* In a separate CSS file, e.g., MainFeed.css */
+
+.main-feed {
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  .post {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  /* Import this CSS in your MainFeed.js */
+  
